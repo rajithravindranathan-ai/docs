@@ -631,3 +631,7 @@ hr {
   background: var(--brand-orange-muted);
   color: var(--brand-orange);
 }
+
+.DocSearch-Button-Keys {
+  display: none;
+}
