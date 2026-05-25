@@ -7,7 +7,7 @@ sidebar_position: 2
 # OMS User Interface Reference Guide
 
 <a 
-  href="/pdf/OMS-UI-Reference-Guide.pdf" 
+  href="/pdf/OMS_User_InterFace Guide.pdf" 
   download
   style={{display:'inline-block', background:'#f05a28', color:'#fff', padding:'10px 20px', borderRadius:'6px', fontWeight:'600', textDecoration:'none', marginBottom:'24px'}}>
   📥 Download PDF
