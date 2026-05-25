@@ -6,6 +6,13 @@ sidebar_position: 2
 
 # OMS User Interface Reference Guide
 
+<a 
+  href="/pdf/OMS-UI-Reference-Guide.pdf" 
+  download
+  style={{display:'inline-block', background:'#f05a28', color:'#fff', padding:'10px 20px', borderRadius:'6px', fontWeight:'600', textDecoration:'none', marginBottom:'24px'}}>
+  📥 Download PDF
+</a>
+
 ## 📝 Overview
 
 The OMS UI Reference Guide provides a comprehensive explanation of the XY Retail Order Management System user interface, focusing on how operations, customer support, merchandising, and store teams can efficiently execute their day-to-day workflows. It is intended to serve as a single source of truth for understanding screens, components, behaviours, and key actions available across the OMS UI.
