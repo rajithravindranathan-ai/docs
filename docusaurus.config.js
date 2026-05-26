@@ -60,6 +60,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
+        hideOnScroll: true,
         title: 'XY Retail Docs',
         logo: {
           alt: 'XY Retail Logo',
