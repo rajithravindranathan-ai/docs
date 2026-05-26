@@ -73,7 +73,7 @@ const config = {
             position: 'left',
             label: '📚 Browse Docs',
           },
-        
+       ], 
       },
       footer: {
         style: 'dark',
