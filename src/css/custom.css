@@ -683,3 +683,9 @@ hr {
     height: 24px;
   }
 }
+/* ── MOBILE SIDEBAR WIDTH FIX ── */
+@media (max-width: 996px) {
+  .navbar-sidebar {
+    width: 100% !important;
+  }
+}
