@@ -657,17 +657,21 @@ hr {
   h2 { font-size: 1.4rem; }
   h3 { font-size: 1.1rem; }
 }
-/* ── MOBILE SIDEBAR BUTTON ── */
+/* ── MOBILE SIDEBAR FIX ── */
 @media (max-width: 996px) {
-  .theme-doc-sidebar-container {
-    display: none;
-  }
-
-  .navbar-sidebar__close {
+  .navbar-sidebar {
     display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
-  .menu {
-    padding: 1rem;
+  .navbar-sidebar__items {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .navbar-sidebar__item.menu {
+    height: 100%;
+    overflow-y: auto;
   }
 }
