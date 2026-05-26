@@ -657,3 +657,17 @@ hr {
   h2 { font-size: 1.4rem; }
   h3 { font-size: 1.1rem; }
 }
+/* ── MOBILE SIDEBAR BUTTON ── */
+@media (max-width: 996px) {
+  .theme-doc-sidebar-container {
+    display: none;
+  }
+
+  .navbar-sidebar__close {
+    display: flex;
+  }
+
+  .menu {
+    padding: 1rem;
+  }
+}
