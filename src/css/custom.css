@@ -657,3 +657,21 @@ hr {
   h2 { font-size: 1.4rem; }
   h3 { font-size: 1.1rem; }
 }
+/* ── ALWAYS SHOW SIDEBAR ON ALL DEVICES ── */
+@media (max-width: 996px) {
+  .navbar__toggle {
+    display: none !important;
+  }
+
+  .theme-doc-sidebar-container {
+    display: block !important;
+    width: 100% !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: -100% !important;
+    height: 100vh !important;
+    z-index: 999 !important;
+    transition: left 0.3s ease !important;
+    overflow-y: auto !important;
+  }
+}
