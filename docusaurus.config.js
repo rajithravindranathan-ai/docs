@@ -71,9 +71,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Order Management System',
+            label: '📚 Browse Docs',
           },
-        ],
+        
       },
       footer: {
         style: 'dark',
