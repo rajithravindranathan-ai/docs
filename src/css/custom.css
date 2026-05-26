@@ -635,3 +635,25 @@ hr {
 .DocSearch-Button-Keys {
   display: none;
 }
+/* ── MOBILE OPTIMISATION ── */
+@media (max-width: 768px) {
+  .theme-doc-markdown {
+    max-width: 100%;
+    padding: 0 8px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.1rem; }
+}
