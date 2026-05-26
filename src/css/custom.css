@@ -676,11 +676,15 @@ hr {
   .navbar__toggle {
     display: block !important;
   }
-}
 /* ── LOGO SIZE FIX FOR MOBILE ── */
 @media (max-width: 996px) {
   .navbar__logo {
-    height: 24px;
+    height: 20px !important;
+    width: auto !important;
+  }
+  
+  .navbar__brand {
+    font-size: 0.9rem !important;
   }
 }
 /* ── MOBILE SIDEBAR WIDTH FIX ── */
