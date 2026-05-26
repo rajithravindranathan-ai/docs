@@ -71,7 +71,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '📚 Browse Docs',
+            label: 'OMS',
           },
        ], 
       },
