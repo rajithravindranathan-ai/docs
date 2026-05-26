@@ -1,4 +1,3 @@
-
 import React from 'react';
 import DocSidebarMobile from '@theme-original/DocSidebar/Mobile';
 
