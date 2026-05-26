@@ -677,3 +677,9 @@ hr {
     display: block !important;
   }
 }
+/* ── LOGO SIZE FIX FOR MOBILE ── */
+@media (max-width: 996px) {
+  .navbar__logo {
+    height: 24px;
+  }
+}
